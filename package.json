@@ -1,14 +1,21 @@
 {
-  "name": "ts01",
+  "name": "160_typescript",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "Repo for Udemy Course on 'Understanding TypeScript'",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madewithcode/160_TypeScript.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madewithcode/160_TypeScript/issues"
+  },
+  "homepage": "https://github.com/madewithcode/160_TypeScript#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
   }
