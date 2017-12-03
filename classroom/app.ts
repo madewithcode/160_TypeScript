@@ -1,1 +1,1 @@
-console.log('app.js enter');
+console.log('app.js enter!');
