@@ -1,8 +1,6 @@
 # TypeScript
 Repo for Udemy Course on 'Understanding TypeScript'
 
-# working directory: TS01
-
 # initial one time setup
 $ npm -g install typescript@1.8.10 **installed typescript globally. 1.8.10 is highest supported by WebStorm 10.**
 
@@ -23,3 +21,7 @@ $ tsc **if tsc --init has been run, this compiles all ts files to js.**
 $ tsc --outFile app.js circleMath.ts rectangleMath.ts app.ts **takes the ts files and outputs to app.js**
 
 $ tsc app.ts --outFile app.js **if all dependencies are listed as 'reference path' as first lines of app.ts**
+
+# systemjs - a module loader
+
+$ npm install systemjs --save **need this in PROD also**

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TypeScript</title>
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+</head>
+<body>
+<h1>TypeScript 101</h1>
+
+<script>
+
+    // set our baseURL reference path
+    SystemJS.config({
+        baseURL: '/classroom',
+        packages: {
+            '/': {
+                defaultExtension: 'js'
+            }
+        }
+    });
+
+    // loads js/main.js
+    SystemJS.import('app.js');
+
+</script>
+</body>
+</html>
