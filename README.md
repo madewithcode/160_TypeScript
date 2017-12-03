@@ -20,3 +20,6 @@ $ tsc app.ts **compiles to app.js (webstorm also does this, and generates map fi
 
 $ tsc **if tsc --init has been run, this compiles all ts files to js.**
 
+$ tsc --outFile app.js circleMath.ts rectangleMath.ts app.ts **takes the ts files and outputs to app.js**
+
+$ tsc app.ts --outFile app.js **if all dependencies are listed as 'reference path' as first lines of app.ts**
