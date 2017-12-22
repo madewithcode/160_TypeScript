@@ -7,4 +7,3 @@ function calculateCircumference(diameter) {
     return diameter * exports.PI;
 }
 exports.calculateCircumference = calculateCircumference;
-//# sourceMappingURL=circle.js.map
