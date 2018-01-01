@@ -1,3 +1,1 @@
-/**
- * Created by Vinay on 12/27/17.
- */
+console.log('exercise 4 - generics');
