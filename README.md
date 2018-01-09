@@ -25,3 +25,12 @@ $ tsc app.ts --outFile app.js **if all dependencies are listed as 'reference pat
 # systemjs - a module loader
 
 $ npm install systemjs --save **need this in PROD also**
+
+
+# Git General
+$ git config -l --show-origin
+$ git config user.name 'madewithcode'
+$ git config user.email 'ahuja.apps@gmail.com'
+
+$ git config --global user.name
+$ git config --global user.email
