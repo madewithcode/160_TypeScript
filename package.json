@@ -4,19 +4,13 @@
   "description": "Repo for Udemy Course on 'Understanding TypeScript'",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madewithcode/160_TypeScript.git"
   },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/madewithcode/160_TypeScript/issues"
-  },
-  "homepage": "https://github.com/madewithcode/160_TypeScript#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
   },
